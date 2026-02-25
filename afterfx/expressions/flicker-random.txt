@@ -1,0 +1,1 @@
+var s = Math.floor(time/1); // number of seconds.seedRandom(s, timeless =  true)var t = random().toFixed(0); // picks random number.wiggle(t,12); // change in opacity and time.

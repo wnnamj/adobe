@@ -1,0 +1,5 @@
+globalControl = thisComp.layer("▣ void-global-controls"); // global null controller
+f = globalControl.effect("freq")("Slider");
+a = globalControl.effect("amp")("Slider");
+
+wiggle(f,a);

@@ -1,0 +1,7 @@
+var color1 = effect("Color Control 1")("Color");var color2 = effect("Color Control 2")("Color");var color3 = effect("Color Control 3")("Color");var color4 = effect("Color Control 4")("Color");var color5 = effect("Color Control 5")("Color");colors = [color1,color2,color3,color4,color5];
+slider = effect("Slider Control")("Slider");engine = Math.floor(time/slider);
+
+seedRandom(engine,true);
+
+colorChoose = Math.floor(random(colors.length));
+colors[colorChoose];
