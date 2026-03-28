@@ -1,0 +1,1 @@
+dropdown = thisComp.layer("▣ void-global-controls").effect("colour")("Menu");$col01 = hexToRgb('#00000');$col02 = hexToRgb('#ffffff');if (dropdown == 1){$col01}else if (dropdown == 2){$col02}
