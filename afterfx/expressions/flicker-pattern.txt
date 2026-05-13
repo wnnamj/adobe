@@ -1,6 +1,1 @@
-speed = 10; // number of frames
-n = Math.sin(time*speed);
-
-if (n<=0) {
-	0 
-} else 100;
+var $speed = 10; // number of framesvar $n = Math.sin(time * $speed);if ($n <= 0) {	0} else 100;

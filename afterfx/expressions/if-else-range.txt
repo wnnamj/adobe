@@ -1,0 +1,1 @@
+var $varObject = [VALUE];var $varOne = [VALUE];var $varTwo = [VALUE];if ($varObject >= [RANGE VALUE MIN] && $varObject <= [RANGE VALUE MAX]) {$varOne}	else if ($varObject >= [RANGE VALUE MIN] && $varObject <= [RANGE VALUE MAX]) {$varTwo}

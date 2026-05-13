@@ -1,0 +1,5 @@
+var $nullController = thisComp.layer("▣ void-global-controls");
+var $timeDelay = $nullController.effect("delay")("Slider") * thisComp.frameDuration;
+var $delayedProperty = ;
+
+$delayedProperty.valueAtTime(time - $timeDelay);

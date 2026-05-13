@@ -1,12 +1,6 @@
-t = framesToTime(time, thisComp.frameDuration) + (thisLayer.index * 12345);
-
-function isPrime(value) {
-    for(var i = 2; i < value; i++) {
-        if(value % i === 0) {
-            return 100;
-        }
-    }
-    return 0;
-}
-
-isPrime(t);
+var $t = framesToTime(time, thisComp.frameDuration) + (thisLayer.index * 12345);function isPrime(value) {	for(var $i = 2; $i < value; $i++) {
+		if(value % $i === 0) {
+			return 100;
+		}
+	}
+	return 0;}isPrime($t);

@@ -1,11 +1,3 @@
-t1 = key(1).time;
-t2 = key(numKeys).time;
-span = t2 - t1;
-delta = time - t2;
-t = delta%span;
-  
-if (numKeys >1 && time > key(numKeys).time) {
-  valueAtTime(t1 + t);
-} else {
-  value;
-}
+var $t1 = key(1).time;var $t2 = key(numKeys).time;var $span = $t2 - $t1;var $delta = time - $t2;var $t = $delta % $span;  if (numKeys >1 && time > key(numKeys).time) {
+	valueAtTime($t1 + $t);} else {
+	value;}

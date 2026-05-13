@@ -1,10 +1,1 @@
-/* attach values to a slider for more control */
-
-frequency = 2; // how fast to wiggle
-amplitude = 40; // how far to wiggle
-secondsToLoop = 3; // seconds it takes to loop
-t = time % secondsToLoop;
-wiggle1 = wiggle(frequency, amplitude, 1, 0.5, t);
-wiggle2 = wiggle(frequency, amplitude, 1, 0.5, t - secondsToLoop);
-
-linear(t, 0,  secondsToLoop, wiggle1, wiggle2);
+var $f = 2;var $a = 40;var $secondsToLoop = 3;var $t = time % $secondsToLoop;var $wiggle1 = wiggle($f, $a, 1, 0.5, $t);var $wiggle2 = wiggle($f, $a, 1, 0.5, $t - $secondsToLoop);linear($t, 0,  $secondsToLoop, $wiggle1, $wiggle2);

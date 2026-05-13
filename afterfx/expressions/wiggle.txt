@@ -1,5 +1,1 @@
-globalControl = thisComp.layer("▣ void-global-controls"); // global null controller
-f = globalControl.effect("freq")("Slider");
-a = globalControl.effect("amp")("Slider");
-
-wiggle(f,a);
+var $nullController = thisComp.layer("▣ void-global-controls");var $f = $nullController.effect("freq")("Slider");var $a = $nullController.effect("amp")("Slider");wiggle($f, $a);

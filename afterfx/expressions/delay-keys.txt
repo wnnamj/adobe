@@ -1,0 +1,1 @@
+var $nullController = thisComp.layer("▣ void-global-controls");var $timeDelay = $nullController.effect("delay")("Slider") * thisComp.frameDuration;var $keyDelay = time - $timeDelay;valueAtTime($keyDelay);

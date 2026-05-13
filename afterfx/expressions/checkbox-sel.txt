@@ -1,4 +1,1 @@
-chkBx = ; // pickwhip to checkbox
-
-if (chkBx == 1) 100
-  else 0;
+var $checkBox = ;if ($checkBox == 1) 100  else 0;
