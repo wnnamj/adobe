@@ -1,1 +1,6 @@
-var $s = Math.floor(time / 1); // number of seconds.var $t = random().toFixed(0);var $a = 25;seedRandom($s, timeless = true)wiggle($t, $a);
+var $s = Math.floor(time / 1); // number of seconds.
+var $t = random().toFixed(0);
+var $a = 25;
+
+seedRandom($s, timeless = true)
+wiggle($t, $a);

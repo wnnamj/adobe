@@ -1,1 +1,19 @@
-var $amp = 0.02;var $freq = 2;var $decay = 6;var $n = nearestKey(time).index;var $t = time - key($n).time;var $v = velocityAtTime(key($n).time - thisComp.frameDuration / 10);var $oscillation = Math.sin($freq * $t * 2 * Math.PI) / Math.exp($decay * $t);if (numKeys == 0) {  value;} else {  if (key($n).time > time) $n--;  if ($n == 0) {    value;  } else {    value + $v * $amp * $oscillation;  }}
+var $amp = 0.02;
+var $freq = 2;
+var $decay = 6;
+
+var $n = nearestKey(time).index;
+var $t = time - key($n).time;
+var $v = velocityAtTime(key($n).time - thisComp.frameDuration / 10);
+var $oscillation = Math.sin($freq * $t * 2 * Math.PI) / Math.exp($decay * $t);
+
+if (numKeys == 0) {
+  value;
+} else {
+  if (key($n).time > time) $n--;
+  if ($n == 0) {
+    value;
+  } else {
+    value + $v * $amp * $oscillation;
+  }
+}

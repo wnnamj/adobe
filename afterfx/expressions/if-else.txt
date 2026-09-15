@@ -1,1 +1,3 @@
-if ([INPUT] >= [VALUE]) {	[VALUE];} else [VALUE];
+if ([INPUT] >= [VALUE]) {
+	[VALUE];
+} else [VALUE];

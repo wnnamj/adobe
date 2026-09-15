@@ -1,1 +1,12 @@
-var $col01 = effect("Color Control 1")("Color");var $col02 = effect("Color Control 2")("Color");var $col03 = effect("Color Control 3")("Color");var $colArray = [$col01,$col02,$col03];var $slider = effect("Slider")("Slider");var $engine = Math.floor(time / $slider);var $colourChoose = Math.floor(random($colArray.length));seedRandom($engine,true);$colArray[$colourChoose];
+var $col01 = effect("Color Control 1")("Color");
+var $col02 = effect("Color Control 2")("Color");
+var $col03 = effect("Color Control 3")("Color");
+
+var $colArray = [$col01,$col02,$col03];
+var $slider = effect("Slider")("Slider");
+var $engine = Math.floor(time / $slider);
+var $colourChoose = Math.floor(random($colArray.length));
+
+seedRandom($engine,true);
+
+$colArray[$colourChoose];
