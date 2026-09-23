@@ -1,0 +1,7 @@
+var $slider = Math.floor(effect("Slider Control")("Slider"));
+var $srcTxt = text.sourceText;
+var $leadingZero = $srcTxt + "0" + $slider;
+var $noLeadingZero = $srcTxt + $slider;
+
+if ($slider >= 0 && $slider < 10) {$leadingZero}
+	else if ($slider >= 10) {$noLeadingZero};
